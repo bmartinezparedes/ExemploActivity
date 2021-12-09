@@ -12,7 +12,7 @@
         <activity
             android:name=".DisplayMessageActivity"
             android:exported="false" >
-        <!-- The meta-data tag is required if you support API level 15 and lower -->
+        <!-- La etiqueta de metadatos es necesaria si admite el nivel de API 15 e inferior -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />

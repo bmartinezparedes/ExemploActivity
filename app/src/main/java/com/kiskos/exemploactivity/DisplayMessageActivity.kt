@@ -9,10 +9,10 @@ class DisplayMessageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display_message)
 
-        // Get the Intent that started this activity and extract the string
+        // Obtenga el Intent que inició esta actividad y extraiga la cadena
         val message = intent.getStringExtra(EXTRA_MESSAGE)
 
-        // Capture the layout's TextView and set the string as its text
+        // Capture el TextView del diseño y establezca la cadena como su texto
         val textView = findViewById<TextView>(R.id.textView).apply {
             text = message
         }
